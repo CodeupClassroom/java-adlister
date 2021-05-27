@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java-adlister:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>java-adlister</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="adlister-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="java-adlister:war exploded" />
+    </root>
+  </artifact>
+</component>
